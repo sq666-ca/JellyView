@@ -1,0 +1,104 @@
+{
+  "inactive_baseline": {
+    "PlutoTVRetroCrimeDrama.ca": "原线路在本轮四次完整检查中未取得可解码视频，移入待复测，不判断为频道永久停播。",
+    "Nosey.us@CA": "原加拿大线路在本轮四次完整检查中未取得可解码视频；不把美国版换个国家名充数。",
+    "PlutoTVSerie.de": "原线路两次实际解码均为1216×684，低于720P；德国剧集改由其他独立频道补充。"
+  },
+  "new_candidates": [
+    {
+      "country": "CA",
+      "id": "FEVATV.ca",
+      "reason": "抽帧出现THR3E标识，尚未把该线路与FEVA独立频道身份核实对应；不填加拿大综合位置。"
+    },
+    {
+      "country": "KR",
+      "id": "ArirangUN.kr",
+      "reason": "是Arirang另一国际分发版本，本轮为文化节目；不当作一条独立新闻专台重复计数。"
+    },
+    {
+      "country": "GB",
+      "id": "PlutoTVSitcoms.de",
+      "reason": "抽帧为澳洲晨间节目及其他宣传内容，未确认与英国情景剧主题对应。"
+    },
+    {
+      "country": "FR",
+      "id": "IntoCrime.fr",
+      "reason": "片单混有电影、剧集及罪案纪实，尚无合适的单一主分类结论，不作为纯纪录片补位。"
+    },
+    {
+      "country": "IT",
+      "id": "Italia2.it",
+      "reason": "抽帧为同名地方台Italia 2 TV，未确认为Mediaset动漫与影视频道，不收入动漫分类。"
+    },
+    {
+      "country": "DE",
+      "id": "VolksmusikTV.de",
+      "reason": "本轮两次为购物时段，未取得音乐节目样本；音乐位置改用节目对应的DELUXE LOUNGE。"
+    },
+    {
+      "country": "US",
+      "id": "VevoRB.us",
+      "reason": "一次完整检查实际1216×684，另一次720P，存在低于720P的样本，暂不纳入本稿。"
+    },
+    {
+      "country": "GB",
+      "id": "UndercoverBossGlobal.us",
+      "reason": "两次720P通过，但英国综艺四个位置已有互不相同的频道；作为后备保留记录，不超配额。"
+    },
+    {
+      "country": "RU",
+      "id": "HorosheeKino.ru",
+      "reason": "两次抽帧实际为Radio Sputnik新闻访谈，不是电影节目；不能用标称电影台名补电影位置。"
+    },
+    {
+      "country": "RU",
+      "id": "Blokbaster.ru",
+      "reason": "补充检查两次未取得有效直播清单，未加入电影分类。"
+    },
+    {
+      "country": "RU",
+      "id": "DomkinoPremium.ru",
+      "reason": "未取得同一可用地址最近两次完整检查连续通过的记录，保留候选及失败状态。"
+    },
+    {
+      "country": "RU",
+      "id": "vijuPlusSerial.ru",
+      "reason": "未取得同一可用地址最近两次完整检查连续通过的记录，保留候选及失败状态。"
+    },
+    {
+      "country": "RU",
+      "id": "TNT.ru",
+      "reason": "未取得同一可用地址最近两次完整检查连续通过的记录，保留候选及失败状态。"
+    },
+    {
+      "country": "DE",
+      "id": "PlutoTVCrime.de",
+      "reason": "未取得同一可用地址最近两次完整检查连续通过的记录，保留候选及失败状态。"
+    },
+    {
+      "country": "FR",
+      "id": "CineHorreurbyPlutoTV.de",
+      "reason": "未取得同一可用地址最近两次完整检查连续通过的记录，保留候选及失败状态。"
+    },
+    {
+      "country": "FR",
+      "id": "PlutoTVFrenchCollection.de",
+      "reason": "未取得同一可用地址最近两次完整检查连续通过的记录，保留候选及失败状态。"
+    },
+    {
+      "country": "IT",
+      "id": "TeenageMutantNinjaTurtles.de",
+      "reason": "未取得同一可用地址最近两次完整检查连续通过的记录，保留候选及失败状态。"
+    },
+    {
+      "country": "IT",
+      "id": "PlutoTVSerieCrime.de",
+      "reason": "未取得同一可用地址最近两次完整检查连续通过的记录，保留候选及失败状态。"
+    },
+    {
+      "country": "FR",
+      "id": "Heleneetlesgarcons.us",
+      "reason": "该国家/地区此分类已有四个独立频道，作为后备保留。"
+    }
+  ]
+}

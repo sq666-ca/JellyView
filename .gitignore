@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.runtime/
+.env
+.env.*
+*.p12
+password.txt
+appsettings.json
+private/
+drafts/
+*.local.*

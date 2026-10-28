@@ -1,0 +1,31 @@
+{
+  "release": "01",
+  "date": "2026-10-28",
+  "audit_phase": "发布前资源与解析检查",
+  "result": "PASS",
+  "video_count": 243,
+  "official_web_count": 69,
+  "approved_channel_objects_and_urls_unchanged": true,
+  "approved_m3u_video_and_web_entries_unchanged": true,
+  "mainland_51_unchanged": true,
+  "unique_channel_ids_and_urls": true,
+  "per_region_and_category_maximum": 4,
+  "json_uses_public_m3u_url": true,
+  "relative_document_links_checked": 33,
+  "m3u_sha256": "b8779b15f116da1d6e7cde14ba01a00b463f0fc7ccb9621dd170ef509a021cf3",
+  "configuration_sha256": "a3d6d4be212731f6cae78260da63966ef9b5d551f582b9febcb45a3a061135de",
+  "parser_snapshot": {
+    "videoCount": 243,
+    "webCount": 69,
+    "streamAndWebParsing": "PASS",
+    "existingSevenCategories": "PASS",
+    "generalVideoChannelsWithoutSoftwareCategory": 25,
+    "generalCategorySupport": "NOT_SUPPORTED_BY_INSTALLED_PARSER",
+    "priorityExtensionSupport": "参考解析器未读取优先级扩展，完整显示依客户端实现。",
+    "officialLibreTVConfigParser": "PASS",
+    "deduplication": "PASS",
+    "softwareModified": false,
+    "scope": "资源格式与参考解析器检查；不包含软件界面验收。"
+  },
+  "note": "此项核对资源、格式与已有测试记录的一致性；不把发布前检查写成新一轮逐台网络测试。"
+}

@@ -1,0 +1,1425 @@
+{
+  "schema_version": 2,
+  "areas": [
+    {
+      "id": "mainland",
+      "name": "大陆频道",
+      "full_name": "中国大陆频道",
+      "groups": [
+        "央视频道",
+        "卫视频道"
+      ]
+    },
+    {
+      "id": "hong_kong",
+      "name": "香港频道",
+      "full_name": "中国香港频道",
+      "categories": [
+        "综合",
+        "新闻",
+        "动漫",
+        "电影",
+        "剧集",
+        "纪录片",
+        "综艺",
+        "音乐"
+      ]
+    },
+    {
+      "id": "taiwan",
+      "name": "台湾频道",
+      "full_name": "中国台湾频道",
+      "categories": [
+        "综合",
+        "新闻",
+        "动漫",
+        "电影",
+        "剧集",
+        "纪录片",
+        "综艺",
+        "音乐"
+      ]
+    },
+    {
+      "id": "overseas",
+      "name": "海外频道",
+      "countries": [
+        {
+          "code": "US",
+          "name": "美国",
+          "categories": [
+            "综合",
+            "新闻",
+            "动漫",
+            "电影",
+            "剧集",
+            "纪录片",
+            "综艺",
+            "音乐"
+          ]
+        },
+        {
+          "code": "RU",
+          "name": "俄罗斯",
+          "categories": [
+            "综合",
+            "新闻",
+            "动漫",
+            "电影",
+            "剧集",
+            "纪录片",
+            "综艺",
+            "音乐"
+          ]
+        },
+        {
+          "code": "GB",
+          "name": "英国",
+          "categories": [
+            "综合",
+            "新闻",
+            "动漫",
+            "电影",
+            "剧集",
+            "纪录片",
+            "综艺",
+            "音乐"
+          ]
+        },
+        {
+          "code": "CA",
+          "name": "加拿大",
+          "categories": [
+            "综合",
+            "新闻",
+            "动漫",
+            "电影",
+            "剧集",
+            "纪录片",
+            "综艺",
+            "音乐"
+          ]
+        },
+        {
+          "code": "DE",
+          "name": "德国",
+          "categories": [
+            "综合",
+            "新闻",
+            "动漫",
+            "电影",
+            "剧集",
+            "纪录片",
+            "综艺",
+            "音乐"
+          ]
+        },
+        {
+          "code": "FR",
+          "name": "法国",
+          "categories": [
+            "综合",
+            "新闻",
+            "动漫",
+            "电影",
+            "剧集",
+            "纪录片",
+            "综艺",
+            "音乐"
+          ]
+        },
+        {
+          "code": "IT",
+          "name": "意大利",
+          "categories": [
+            "综合",
+            "新闻",
+            "动漫",
+            "电影",
+            "剧集",
+            "纪录片",
+            "综艺",
+            "音乐"
+          ]
+        },
+        {
+          "code": "JP",
+          "name": "日本",
+          "categories": [
+            "综合",
+            "新闻",
+            "动漫",
+            "电影",
+            "剧集",
+            "纪录片",
+            "综艺",
+            "音乐"
+          ]
+        },
+        {
+          "code": "KR",
+          "name": "韩国",
+          "categories": [
+            "综合",
+            "新闻",
+            "动漫",
+            "电影",
+            "剧集",
+            "纪录片",
+            "综艺",
+            "音乐"
+          ]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    "综合",
+    "新闻",
+    "动漫",
+    "电影",
+    "剧集",
+    "纪录片",
+    "综艺",
+    "音乐"
+  ],
+  "aliases": {
+    "动画": "动漫",
+    "纪实": "纪录片",
+    "电视剧": "剧集"
+  },
+  "coverage": [
+    {
+      "country": "HK",
+      "country_name": "中国香港",
+      "category": "综合",
+      "count": 2,
+      "verified_count": 2,
+      "conditional_count": 0,
+      "channels": [
+        "Jade.hk",
+        "RTHKTV31.hk"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "HK",
+      "country_name": "中国香港",
+      "category": "新闻",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "HK",
+      "country_name": "中国香港",
+      "category": "动漫",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "HK",
+      "country_name": "中国香港",
+      "category": "电影",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "MeiAhMovieChannel.hk"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "HK",
+      "country_name": "中国香港",
+      "category": "剧集",
+      "count": 2,
+      "verified_count": 2,
+      "conditional_count": 0,
+      "channels": [
+        "GoldenJade.hk",
+        "AsianDrama.hk"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "HK",
+      "country_name": "中国香港",
+      "category": "纪录片",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "HK",
+      "country_name": "中国香港",
+      "category": "综艺",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "KIX.hk"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "HK",
+      "country_name": "中国香港",
+      "category": "音乐",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "TW",
+      "country_name": "中国台湾",
+      "category": "综合",
+      "count": 2,
+      "verified_count": 2,
+      "conditional_count": 0,
+      "channels": [
+        "TaiwanPlusTV.tw",
+        "TaiwanIndigenousTV.tw"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "TW",
+      "country_name": "中国台湾",
+      "category": "新闻",
+      "count": 2,
+      "verified_count": 2,
+      "conditional_count": 0,
+      "channels": [
+        "FTVNews.tw",
+        "TTVNews.tw"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "TW",
+      "country_name": "中国台湾",
+      "category": "动漫",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "TW",
+      "country_name": "中国台湾",
+      "category": "电影",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "EBCForeignMovie.tw"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "TW",
+      "country_name": "中国台湾",
+      "category": "剧集",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "TW",
+      "country_name": "中国台湾",
+      "category": "纪录片",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "TW",
+      "country_name": "中国台湾",
+      "category": "综艺",
+      "count": 2,
+      "verified_count": 2,
+      "conditional_count": 0,
+      "channels": [
+        "TVBSAsia.tw",
+        "EBCSuper.tw"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "TW",
+      "country_name": "中国台湾",
+      "category": "音乐",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "US",
+      "country_name": "美国",
+      "category": "综合",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "PBS.us"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "US",
+      "country_name": "美国",
+      "category": "新闻",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "NBCNewsNOW.us",
+        "ABCNewsLive.us",
+        "CBSNews247.us",
+        "LiveNOWfromFOX.us"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "US",
+      "country_name": "美国",
+      "category": "动漫",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "Crunchyroll.us",
+        "AnimexHIDIVE.us",
+        "NickelodeonPlutoTV.us",
+        "RetroCrush.us"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "US",
+      "country_name": "美国",
+      "category": "电影",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "HallmarkMoviesMore.us",
+        "EbonyTVbyLionsgate.us",
+        "DUST.us",
+        "MyTimeMovieNetworkEast.us"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "US",
+      "country_name": "美国",
+      "category": "剧集",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "StoriesbyAMC.us",
+        "Comet.us",
+        "FeelGoodDrama.us",
+        "DoctorWhoClassic.us"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "US",
+      "country_name": "美国",
+      "category": "纪录片",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "PBSNature.us",
+        "BloombergOriginals.us",
+        "DocumentaryPlus.us",
+        "Unidentified.us"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "US",
+      "country_name": "美国",
+      "category": "综艺",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "AbsoluteRealitybyWETV.us",
+        "GameShowCentral.us",
+        "Buzzr.us",
+        "ComedyDynamics.us"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "US",
+      "country_name": "美国",
+      "category": "音乐",
+      "count": 3,
+      "verified_count": 3,
+      "conditional_count": 0,
+      "channels": [
+        "CaliforniaMusicChannel.us",
+        "TheCountryNetwork.us",
+        "MCN6MusicChannel.us"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "category": "综合",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "ChannelOne.ru",
+        "Russia1.ru",
+        "NTV.ru",
+        "RussiaK.ru"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "category": "新闻",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "Russia24.ru",
+        "Izvestia.ru",
+        "360News.ru",
+        "Mir24.ru"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "category": "动漫",
+      "count": 2,
+      "verified_count": 2,
+      "conditional_count": 0,
+      "channels": [
+        "STSkids.ru",
+        "2x2.ru"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "category": "电影",
+      "count": 3,
+      "verified_count": 3,
+      "conditional_count": 0,
+      "channels": [
+        "Kinopremyera.ru",
+        "Smotrim100Klassika.ru",
+        "StarCinema.ru"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "category": "剧集",
+      "count": 3,
+      "verified_count": 3,
+      "conditional_count": 0,
+      "channels": [
+        "Smotrim100Lyubov.ru",
+        "Dorama.ru",
+        "StarFamily.ru"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "category": "纪录片",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "Nauka.ru",
+        "RTDocumentary.ru",
+        "Nano.ru",
+        "Smotrim100Fakty.ru"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "category": "综艺",
+      "count": 3,
+      "verified_count": 3,
+      "conditional_count": 0,
+      "channels": [
+        "Smotrim100Prazdnik.ru",
+        "Subbota.ru",
+        "U.ru"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "category": "音乐",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "RUTV.ru",
+        "SONGTVRussia.ru",
+        "StranaFM.ru",
+        "MuzSoyuz.ru"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "GB",
+      "country_name": "英国",
+      "category": "综合",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "GB",
+      "country_name": "英国",
+      "category": "新闻",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "BBCNews.uk",
+        "GBNews.uk",
+        "TalkTV.uk",
+        "CNBCUK.uk"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "GB",
+      "country_name": "英国",
+      "category": "动漫",
+      "count": 2,
+      "verified_count": 2,
+      "conditional_count": 0,
+      "channels": [
+        "Pop.uk",
+        "MrBeanAnimated.uk"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "GB",
+      "country_name": "英国",
+      "category": "电影",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "MyTimeMovieNetwork.uk",
+        "RakutenTVActionMovies.es@GB",
+        "RakutenTVComedyMovies.es@GB",
+        "RakutenTVFamilyMovies.es@GB"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "GB",
+      "country_name": "英国",
+      "category": "剧集",
+      "count": 2,
+      "verified_count": 2,
+      "conditional_count": 0,
+      "channels": [
+        "MrBeanLiveAction.uk",
+        "HighwaytoHeaven.us@GB"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "GB",
+      "country_name": "英国",
+      "category": "纪录片",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "HistoryHit.uk",
+        "MostHaunted.uk",
+        "TrueCrime.uk",
+        "NatureTime.ca@GB"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "GB",
+      "country_name": "英国",
+      "category": "综艺",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "TheChatShowChannel.uk",
+        "TheGrahamNortonShow.uk",
+        "TopGear.uk",
+        "DontTellTheBride.uk"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "GB",
+      "country_name": "英国",
+      "category": "音乐",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "TraceUK.uk",
+        "Thats80s.uk",
+        "V2BEATTV.uk",
+        "Thats70s.uk"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "CA",
+      "country_name": "加拿大",
+      "category": "综合",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "CA",
+      "country_name": "加拿大",
+      "category": "新闻",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "CBCNewsNetwork.ca",
+        "IciRDI.ca",
+        "GlobalNews.ca",
+        "CityNewsToronto.ca"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "CA",
+      "country_name": "加拿大",
+      "category": "动漫",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "AnimationPlus.us@CA"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "CA",
+      "country_name": "加拿大",
+      "category": "电影",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "MovieSphere.us"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "CA",
+      "country_name": "加拿大",
+      "category": "剧集",
+      "count": 2,
+      "verified_count": 2,
+      "conditional_count": 0,
+      "channels": [
+        "DocMartin.us@CA",
+        "JAG.us@CA"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "CA",
+      "country_name": "加拿大",
+      "category": "纪录片",
+      "count": 2,
+      "verified_count": 2,
+      "conditional_count": 0,
+      "channels": [
+        "HauntTV.ca",
+        "TotalCrime.ca"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "CA",
+      "country_name": "加拿大",
+      "category": "综艺",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "ThePriceIsRight.us@CA"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "CA",
+      "country_name": "加拿大",
+      "category": "音乐",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "StingrayEasyListening.ca",
+        "QelloConcertsbyStingray.ca",
+        "StingrayClassica.ca",
+        "StingrayDJAZZ.ca"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "DE",
+      "country_name": "德国",
+      "category": "综合",
+      "count": 4,
+      "verified_count": 3,
+      "conditional_count": 1,
+      "channels": [
+        "DasErste.de",
+        "ZDF.de",
+        "ProSieben.de",
+        "NDRFernsehen.de"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "DE",
+      "country_name": "德国",
+      "category": "新闻",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "DW.de"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "DE",
+      "country_name": "德国",
+      "category": "动漫",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "RiC.de"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "DE",
+      "country_name": "德国",
+      "category": "电影",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "RakutenTVActionMovies.es@DE",
+        "RakutenTVComedyMovies.es@DE",
+        "RakutenTVFamilyMovies.es@DE",
+        "GrjngoWesternMovies.de"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "DE",
+      "country_name": "德国",
+      "category": "剧集",
+      "count": 3,
+      "verified_count": 3,
+      "conditional_count": 0,
+      "channels": [
+        "PlutoTVHistorischeSerien.de",
+        "Awkward.de",
+        "ZeeOne.uk@DE"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "DE",
+      "country_name": "德国",
+      "category": "纪录片",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "N24Doku.de",
+        "TerraMaterWILD.de",
+        "Dokusat.de",
+        "AutenticHistory.de"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "DE",
+      "country_name": "德国",
+      "category": "综艺",
+      "count": 2,
+      "verified_count": 2,
+      "conditional_count": 0,
+      "channels": [
+        "ZDFneo.de",
+        "AuctionHunters.de"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "DE",
+      "country_name": "德国",
+      "category": "音乐",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "DASDING908.de",
+        "DeluxeMusic.de",
+        "DeluxeRap.de",
+        "DeluxeLounge.de"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "FR",
+      "country_name": "法国",
+      "category": "综合",
+      "count": 3,
+      "verified_count": 3,
+      "conditional_count": 0,
+      "channels": [
+        "W9.fr",
+        "France3.fr",
+        "TV5MondeEurope.fr"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "FR",
+      "country_name": "法国",
+      "category": "新闻",
+      "count": 3,
+      "verified_count": 3,
+      "conditional_count": 0,
+      "channels": [
+        "France24.fr",
+        "BFM2.fr",
+        "CNews.fr"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "FR",
+      "country_name": "法国",
+      "category": "动漫",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "ADNTVPlus.fr",
+        "Gong.fr",
+        "PlutoTVRetroToons.de@FR",
+        "DetectiveConan.us@FR"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "FR",
+      "country_name": "法国",
+      "category": "电影",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "SonyOneHitsComedie.fr",
+        "SonyOneHitsAction.fr",
+        "CineNanar.fr",
+        "Cine666byPlutoTV.de@FR"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "FR",
+      "country_name": "法国",
+      "category": "剧集",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "SonyOneFavoris.fr",
+        "SonyOneBlacklist.fr",
+        "PlutoTVPolar.de@FR",
+        "PlutoTVBrigadeCriminelle.de@FR"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "FR",
+      "country_name": "法国",
+      "category": "纪录片",
+      "count": 3,
+      "verified_count": 3,
+      "conditional_count": 0,
+      "channels": [
+        "NatureTime.ca@FR",
+        "PlutoTVHistoire.de@FR",
+        "PlutoTVAventure.de@FR"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "FR",
+      "country_name": "法国",
+      "category": "综艺",
+      "count": 3,
+      "verified_count": 3,
+      "conditional_count": 0,
+      "channels": [
+        "RMCLife.fr",
+        "CStar.fr",
+        "PlutoTVDating.de@FR"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "FR",
+      "country_name": "法国",
+      "category": "音乐",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "DBMTV.fr"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "IT",
+      "country_name": "意大利",
+      "category": "综合",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "Rai1.it",
+        "Rai2.it",
+        "Rai3.it",
+        "LA7.it"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "IT",
+      "country_name": "意大利",
+      "category": "新闻",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "RaiNews24.it",
+        "TGCom24.it",
+        "GiornaleRadioTV.it",
+        "LaCNews24.it"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "IT",
+      "country_name": "意大利",
+      "category": "动漫",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "Cartoonito.it"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "IT",
+      "country_name": "意大利",
+      "category": "电影",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "RaiMovie.it",
+        "RakutenTVActionMovies.es@IT",
+        "RakutenTVComedyMovies.es@IT",
+        "RakutenTVFamilyMovies.es@IT"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "IT",
+      "country_name": "意大利",
+      "category": "剧集",
+      "count": 3,
+      "verified_count": 3,
+      "conditional_count": 0,
+      "channels": [
+        "Giallo.it",
+        "Andromeda.us@IT",
+        "LesorelleMcLeod.us@IT"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "IT",
+      "country_name": "意大利",
+      "category": "纪录片",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "DiscoveryChannel.it",
+        "Italiana.it",
+        "PlutoTVNatura.de@IT",
+        "StorieCriminali.es@IT"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "IT",
+      "country_name": "意大利",
+      "category": "综艺",
+      "count": 2,
+      "verified_count": 2,
+      "conditional_count": 0,
+      "channels": [
+        "Nove.it",
+        "16AnnieIncinta.de@IT"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "IT",
+      "country_name": "意大利",
+      "category": "音乐",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "KissKissTV.it",
+        "m2oTV.it",
+        "Radiofreccia.it",
+        "RadioZeta.it"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "category": "综合",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "NHKWorldJapan.jp"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "category": "新闻",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "Weathernews.jp"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "category": "动漫",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "category": "电影",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "category": "剧集",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "category": "纪录片",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "category": "综艺",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "category": "音乐",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "KR",
+      "country_name": "韩国",
+      "category": "综合",
+      "count": 4,
+      "verified_count": 4,
+      "conditional_count": 0,
+      "channels": [
+        "ArirangTV.kr",
+        "KBSWorld.kr",
+        "TVChosun.kr",
+        "HLANDTV.kr"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "KR",
+      "country_name": "韩国",
+      "category": "新闻",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "KR",
+      "country_name": "韩国",
+      "category": "动漫",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "AnimaxKorea.kr"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "KR",
+      "country_name": "韩国",
+      "category": "电影",
+      "count": 0,
+      "verified_count": 0,
+      "conditional_count": 0,
+      "channels": [],
+      "status": "gap",
+      "note": "本轮未取得满足节目身份、地区版别、画质与复测条件的可收录线路；不表示当地没有该类高清电视台。"
+    },
+    {
+      "country": "KR",
+      "country_name": "韩国",
+      "category": "剧集",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "TVNDrama.kr"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "KR",
+      "country_name": "韩国",
+      "category": "纪录片",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "YTNScience.kr"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "KR",
+      "country_name": "韩国",
+      "category": "综艺",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "TVNShow.kr"
+      ],
+      "status": "covered",
+      "note": ""
+    },
+    {
+      "country": "KR",
+      "country_name": "韩国",
+      "category": "音乐",
+      "count": 1,
+      "verified_count": 1,
+      "conditional_count": 0,
+      "channels": [
+        "GugakTV.kr"
+      ],
+      "status": "covered",
+      "note": ""
+    }
+  ],
+  "quota_scope": "资源整理目标；不用于截断软件中的自有频道列表。",
+  "coverage_note": "每个地区/国家、每个主分类最多4个独立频道；一个频道只占一个主分类，混合节目与单节目专台另行注明。官网不占配额。"
+}
