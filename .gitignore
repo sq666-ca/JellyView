@@ -9,3 +9,10 @@ appsettings.json
 private/
 drafts/
 *.local.*
+
+# 本地维护、交接与审核资料
+*维护规范*.md
+*发布规范*.md
+*交接*.md
+*本地*.md
+*.log

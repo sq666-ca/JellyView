@@ -1,0 +1,20 @@
+{
+  "name": "JellyView直播·第02版·扩充备选",
+  "version": 2,
+  "description": "发布2026-11-03；测流2026-10-31；34路视频、0个独立官网入口；画质和可用性反映检测时段。",
+  "liveSources": [
+    {
+      "name": "JellyView·扩充备选",
+      "url": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/libretv/feeds/JellyView-Expansion.m3u",
+      "epg": ""
+    }
+  ],
+  "live": [
+    {
+      "name": "JellyView·扩充备选",
+      "url": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/libretv/feeds/JellyView-Expansion.m3u",
+      "epg": ""
+    }
+  ],
+  "sources": []
+}

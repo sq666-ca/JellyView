@@ -1,17 +1,19 @@
 {
-  "name": "JellyView直播·第01版",
+  "name": "JellyView直播·第02版·主流覆盖与特色精选",
   "version": 2,
-  "description": "第01版直播资料：243路视频、69个独立官网入口。中国大陆51路保留原记录；港台及海外192路有本轮检查，其中ARD部分节目地区受限，CCTV-10台标待核。综合与层级显示依客户端支持。",
+  "description": "发布2026-11-03；测流2026-10-31；204路视频、139个独立官网入口；画质和可用性反映检测时段。",
   "liveSources": [
     {
-      "name": "JellyView直播·主流优先与分类扩充",
-      "url": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/libretv/feeds/LibreTV-HD-Only.m3u"
+      "name": "JellyView·主流覆盖与特色精选",
+      "url": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/libretv/feeds/LibreTV-HD-Only.m3u",
+      "epg": ""
     }
   ],
   "live": [
     {
-      "name": "JellyView直播·主流优先与分类扩充",
-      "url": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/libretv/feeds/LibreTV-HD-Only.m3u"
+      "name": "JellyView·主流覆盖与特色精选",
+      "url": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/libretv/feeds/LibreTV-HD-Only.m3u",
+      "epg": ""
     }
   ],
   "sources": []

@@ -1,0 +1,20 @@
+{
+  "name": "JellyView直播·第02版·主流覆盖与特色精选",
+  "version": 2,
+  "description": "发布2026-11-03；测流2026-10-31；204路视频、139个独立官网入口；画质和可用性反映检测时段。",
+  "liveSources": [
+    {
+      "name": "JellyView·主流覆盖与特色精选",
+      "url": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/libretv/feeds/LibreTV-HD-Only.m3u",
+      "epg": ""
+    }
+  ],
+  "live": [
+    {
+      "name": "JellyView·主流覆盖与特色精选",
+      "url": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/libretv/feeds/LibreTV-HD-Only.m3u",
+      "epg": ""
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,2175 @@
+{
+  "schema_version": "jellyview-live-catalog/1",
+  "updated": "2026-11-03",
+  "release": {
+    "number": "02",
+    "title": "扩充备选",
+    "status": "published",
+    "previous_release": "01",
+    "channel_count": 34,
+    "official_page_count": 0,
+    "published_at": "2026-11-03",
+    "last_stream_check_date": "2026-10-31",
+    "repository": "https://github.com/sq666-ca/JellyView"
+  },
+  "policy": {
+    "preferred": "同台、同版本、正常节目优先1080P及以上",
+    "fallback": "没有合适更高清线路时可用720P；低于720P、隔行视频和限制提示不伪装成1080P",
+    "mainland": "保留大陆51路身份和顺序，修复坏线路，明确未完成的身份核对",
+    "selection": "同类可收录多家代表性主流台，并补充内容互补的特色台；不设每类数量上限，不凑各国相同数量",
+    "official_pages": "同频道视频卡片附官网操作；网页专用条目共用分类，不单独设置官网标签"
+  },
+  "channels": [
+    {
+      "id": "MyTimeMovieNetworkEast.us",
+      "legacy_id": "MyTimeMovieNetworkEast.us",
+      "kind": "stream",
+      "name": "MyTime 家庭情感电影（东部版）",
+      "display_name": "美国·MyTime 家庭情感电影（东部版）（1080P）",
+      "area": "overseas",
+      "country": "US",
+      "country_name": "美国",
+      "group": "海外频道",
+      "category": "电影",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "英语，音乐歌词依作品",
+      "language_codes": [
+        "eng"
+      ],
+      "edition": "美国分发版",
+      "url": "https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8",
+      "official_url": "https://mytimemovienetwork.com/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/mytimemovienetworkeast-us-0641ac6cd5.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "美国分发版；不同家庭、情感、悬疑及电视电影，按片单排播。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "MyTime Movie Network",
+        "upstream_tvg_id": "MyTimeMovieNetworkEast.us@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "MyTime Movie Network",
+        "basis_url": "https://mytimemovienetwork.com/"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "mode": "L",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://mytimemovienetwork.com/"
+        ],
+        "note": "不同家庭、情感、悬疑及电视电影，按片单排播。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:34:21.084324+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "MyTime"
+    },
+    {
+      "id": "DoctorWhoClassic.us",
+      "legacy_id": "DoctorWhoClassic.us",
+      "kind": "stream",
+      "name": "神秘博士经典专台（英语美国版）",
+      "display_name": "美国·神秘博士经典专台（英语美国版）（1080P）",
+      "area": "overseas",
+      "country": "US",
+      "country_name": "美国",
+      "group": "海外频道",
+      "category": "剧集",
+      "tags": [
+        "专业补充",
+        "单节目专台"
+      ],
+      "language": "英语，音乐歌词依作品",
+      "language_codes": [
+        "eng"
+      ],
+      "edition": "美国分发版",
+      "url": "https://bbc-classicdrwho-1-us.roku.wurl.tv/playlist.m3u8",
+      "official_url": "https://pluto.tv/en/live-tv/doctor-who-classic-de",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/doctorwhoclassic-us-3ef5e19d17.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "美国分发版；《神秘博士》经典版不同集数与季数；单一系列专台。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "BBC Doctor Who Classic",
+        "upstream_tvg_id": "DoctorWhoClassic.us@US"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "BBC品牌／分发平台",
+        "basis_url": "https://pluto.tv/en/live-tv/doctor-who-classic-de"
+      },
+      "programming": {
+        "type": "single_programme",
+        "mode": "S",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://pluto.tv/en/live-tv/doctor-who-classic-de"
+        ],
+        "note": "《神秘博士》经典版不同集数与季数；单一系列专台。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:34:25.076573+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "神秘博士经典专台"
+    },
+    {
+      "id": "Unidentified.us",
+      "legacy_id": "Unidentified.us",
+      "kind": "stream",
+      "name": "Unidentified 神秘探索（兼影视）",
+      "display_name": "美国·Unidentified 神秘探索（兼影视）（1080P）",
+      "area": "overseas",
+      "country": "US",
+      "country_name": "美国",
+      "group": "海外频道",
+      "category": "纪录片",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "英语，音乐歌词依作品",
+      "language_codes": [
+        "eng"
+      ],
+      "edition": "美国分发版",
+      "url": "https://d3ify425qsio2d.cloudfront.net/playlist.m3u8",
+      "official_url": "https://www.samsung.com/us/tvs/smart-tv/samsung-tv-plus/",
+      "logo": "",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "美国分发版；超自然、未知现象、精神探索等纪录与独立影视；题材带有推测性。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Unidentified",
+        "upstream_tvg_id": "Unidentified.us@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Unidentified／1091品牌",
+        "basis_url": "https://www.samsung.com/us/tvs/smart-tv/samsung-tv-plus/"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "mode": "L",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://www.samsung.com/us/tvs/smart-tv/samsung-tv-plus/"
+        ],
+        "note": "超自然、未知现象、精神探索等纪录与独立影视；题材带有推测性。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:34:31.749162+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "Unidentified"
+    },
+    {
+      "id": "MCN6MusicChannel.us",
+      "legacy_id": "MCN6MusicChannel.us",
+      "kind": "stream",
+      "name": "MCN6 音乐现场",
+      "display_name": "美国·MCN6 音乐现场（1080P）",
+      "area": "overseas",
+      "country": "US",
+      "country_name": "美国",
+      "group": "海外频道",
+      "category": "音乐",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "英语，音乐歌词依作品",
+      "language_codes": [
+        "eng"
+      ],
+      "edition": "美国分发版",
+      "url": "https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8",
+      "official_url": "https://www.mcn6.org/mcnlive",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/mcn6musicchannel-us-1e007c3f3b.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "美国分发版；爵士、乐队演出及其他音乐影像；美国社区媒体的音乐线路。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "MCN6 Music Channel",
+        "upstream_tvg_id": "MCN6MusicChannel.us@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "community",
+        "institution": "Minnesota Content Network",
+        "basis_url": "https://www.mcn6.org/mcnlive"
+      },
+      "programming": {
+        "type": "music_programming",
+        "mode": "M",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://www.mcn6.org/mcnlive"
+        ],
+        "note": "爵士、乐队演出及其他音乐影像；美国社区媒体的音乐线路。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:34:36.942287+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "MCN6"
+    },
+    {
+      "id": "Smotrim100Klassika.ru",
+      "legacy_id": "Smotrim100Klassika.ru",
+      "kind": "stream",
+      "name": "Smotrim 经典电影",
+      "display_name": "俄罗斯·Smotrim 经典电影（1080P）",
+      "area": "overseas",
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "group": "海外频道",
+      "category": "电影",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "俄语",
+      "language_codes": [
+        "rus"
+      ],
+      "edition": "俄罗斯分发版",
+      "url": "https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8",
+      "official_url": "https://smotrim.ru/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/smotrim100klassika-ru-1b3246f1ea.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "俄罗斯分发版；不同年代的俄语经典电影与经典影视内容。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Smotrim 100% Klassika",
+        "upstream_tvg_id": "Smotrim100Klassika.ru@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Smotrim",
+        "basis_url": "https://smotrim.ru/"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "mode": "L",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://smotrim.ru/"
+        ],
+        "note": "不同年代的俄语经典电影与经典影视内容。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:34:51.319180+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "Smotrim"
+    },
+    {
+      "id": "StarCinema.ru",
+      "legacy_id": "StarCinema.ru",
+      "kind": "stream",
+      "name": "Star Cinema 影视（兼剧集）",
+      "display_name": "俄罗斯·Star Cinema 影视（兼剧集）（1080P）",
+      "area": "overseas",
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "group": "海外频道",
+      "category": "电影",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "俄语",
+      "language_codes": [
+        "rus"
+      ],
+      "edition": "俄罗斯分发版",
+      "url": "https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8",
+      "official_url": "http://starcinema.starmediatv.ru/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/starcinema-ru-5a96e69773.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "俄罗斯分发版；俄语电影、电视电影和剧集的混合排播。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Star Cinema",
+        "upstream_tvg_id": "StarCinema.ru@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Star Media／Star Cinema",
+        "basis_url": "http://starcinema.starmediatv.ru/"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "mode": "T",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "http://starcinema.starmediatv.ru/"
+        ],
+        "note": "俄语电影、电视电影和剧集的混合排播。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:34:51.578859+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "Star Cinema"
+    },
+    {
+      "id": "Smotrim100Lyubov.ru",
+      "legacy_id": "Smotrim100Lyubov.ru",
+      "kind": "stream",
+      "name": "Smotrim 爱情影视（兼电影）",
+      "display_name": "俄罗斯·Smotrim 爱情影视（兼电影）（720P）",
+      "area": "overseas",
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "group": "海外频道",
+      "category": "剧集",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "俄语",
+      "language_codes": [
+        "rus"
+      ],
+      "edition": "俄语版",
+      "url": "https://stream.smotrim.ru/hls/fasttv01/playlist_2.m3u8",
+      "official_url": "https://smotrim.ru/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/smotrim100lyubov-ru-d6ef8e8ea7.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "俄语版；爱情与家庭题材的多剧集节目库，亦可能播电视电影及其他电影。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "original_name": "Smotrim 100% Lyubov",
+        "upstream_tvg_id": "Smotrim100Lyubov.ru@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Smotrim品牌",
+        "basis_url": "https://smotrim.ru/"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "basis": "频道定位、官方节目或公开频道资料及抽帧核对",
+        "evidence_urls": [
+          "https://smotrim.ru/"
+        ],
+        "note": "爱情与家庭题材的多剧集节目库，亦可能播电视电影及其他电影。",
+        "mode": "L"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:34:51.986953+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "Smotrim"
+    },
+    {
+      "id": "Nano.ru",
+      "legacy_id": "Nano.ru",
+      "kind": "stream",
+      "name": "Nano 科学纪录",
+      "display_name": "俄罗斯·Nano 科学纪录（1080P）",
+      "area": "overseas",
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "group": "海外频道",
+      "category": "纪录片",
+      "tags": [],
+      "language": "俄语",
+      "language_codes": [
+        "rus"
+      ],
+      "edition": "本地或主要语言版本",
+      "url": "http://185.23.80.23:8080/NANO_HD/index.m3u8",
+      "official_url": "https://tv-nano.ru/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/nano-ru-e481cc8acc.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "",
+      "source": {
+        "url": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
+        "snapshot_sha256": "0f876d0a4dd6e90a42ce4a6a7a39b3a8617be5b3d3c76f39c95dd0cae84b2ee8",
+        "original_name": "Nano HD (1080p)",
+        "upstream_tvg_id": "Nano.ru@HD"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:34:55.039787+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "content_profile": {
+        "mode": "T",
+        "content": "科技、创新、农业技术、金融科普等不同科普栏目和纪录内容。",
+        "organisation": "НАНО／Nano品牌；现运营法人待核",
+        "local_mainstream_assessment": "本地科学教育专业频道；没有足够资料将其列为俄罗斯主要综合媒体。",
+        "sources": [
+          "nano"
+        ],
+        "notes": "官网部分机构文字为旧资料，现法人和当期节目表仍需补核。",
+        "evidence_boundary": "官方品牌或节目资料；具体线路版本沿用既有测流记录"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "НАНО／Nano品牌；现运营法人待核",
+        "basis": "沿用106路报告的机构资料，非本轮新增测流"
+      },
+      "programming": {
+        "mode": "T",
+        "type": "multi_programme",
+        "note": "科技、创新、农业技术、金融科普等不同科普栏目和纪录内容。",
+        "evidence_urls": [
+          "https://tv-nano.ru/"
+        ]
+      },
+      "short_name": "Nano"
+    },
+    {
+      "id": "Smotrim100Fakty.ru",
+      "legacy_id": "Smotrim100Fakty.ru",
+      "kind": "stream",
+      "name": "Smotrim 百科纪实",
+      "display_name": "俄罗斯·Smotrim 百科纪实（1080P）",
+      "area": "overseas",
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "group": "海外频道",
+      "category": "纪录片",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "俄语",
+      "language_codes": [
+        "rus"
+      ],
+      "edition": "俄罗斯分发版",
+      "url": "https://stream.smotrim.ru/hls/fasttv06/playlist_3.m3u8",
+      "official_url": "https://smotrim.ru/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/smotrim100fakty-ru-cdaeb07a13.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "俄罗斯分发版；科学、社会、生活与知识主题的多档纪实节目。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Smotrim 100% Fakty",
+        "upstream_tvg_id": "Smotrim100Fakty.ru@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Smotrim",
+        "basis_url": "https://smotrim.ru/"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "mode": "L",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://smotrim.ru/"
+        ],
+        "note": "科学、社会、生活与知识主题的多档纪实节目。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:34:58.692487+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "Smotrim"
+    },
+    {
+      "id": "Smotrim100Prazdnik.ru",
+      "legacy_id": "Smotrim100Prazdnik.ru",
+      "kind": "stream",
+      "name": "Smotrim 百分百欢乐",
+      "display_name": "俄罗斯·Smotrim 百分百欢乐（1080P）",
+      "area": "overseas",
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "group": "海外频道",
+      "category": "综艺",
+      "tags": [],
+      "language": "俄语",
+      "language_codes": [
+        "rus"
+      ],
+      "edition": "本地或主要语言版本",
+      "url": "https://stream.smotrim.ru/hls/fasttv04/playlist_3.m3u8",
+      "official_url": "",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/smotrim100prazdnik-ru-1e90f8803d.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "",
+      "source": {
+        "url": "https://iptv-org.github.io/iptv/categories/entertainment.m3u",
+        "snapshot_sha256": "c2c15f0967d8f6354657dd841bfbdd8299be67149e1f0da6c9156aa15e421178",
+        "original_name": "Smotrim 100% Prazdnik (720p)",
+        "upstream_tvg_id": "Smotrim100Prazdnik.ru@SD"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:00.304190+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "content_profile": {
+        "mode": "L",
+        "content": "多档幽默、家庭娱乐、综艺和不同艺人的演出、音乐会。",
+        "organisation": "频道登记关联ВГТРК；当前专属官方机构页未完整核实",
+        "local_mainstream_assessment": "可能有大型俄语媒体关联，但本报告仅给登记层面的结论，不将本条认定为已核实主流电视台。",
+        "sources": [
+          "prazdnik",
+          "registry"
+        ],
+        "notes": "多节目性质有第三方节目表佐证；现运营归属仍标待核。",
+        "evidence_boundary": "第三方节目表＋频道登记；机构归属的一手资料不足"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "频道登记关联ВГТРК；当前专属官方机构页未完整核实",
+        "basis": "沿用106路报告的机构资料，非本轮新增测流"
+      },
+      "programming": {
+        "mode": "L",
+        "type": "multi_programme",
+        "note": "节庆、喜剧与娱乐节目，兼剧情影视；非全天纯综艺。",
+        "evidence_urls": []
+      },
+      "short_name": "Smotrim"
+    },
+    {
+      "id": "SONGTVRussia.ru",
+      "legacy_id": "SONGTVRussia.ru",
+      "kind": "stream",
+      "name": "SONG TV 俄语音乐",
+      "display_name": "俄罗斯·SONG TV 俄语音乐（1080P）",
+      "area": "overseas",
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "group": "海外频道",
+      "category": "音乐",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "俄语",
+      "language_codes": [
+        "rus"
+      ],
+      "edition": "俄罗斯分发版",
+      "url": "https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8",
+      "official_url": "https://songtv.ru/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/songtvrussia-ru-53ffc24d1b.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "俄罗斯分发版；不同俄语歌手的流行音乐视频。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "SONGTV Russia",
+        "upstream_tvg_id": "SONGTVRussia.ru@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "SONG TV",
+        "basis_url": "https://songtv.ru/"
+      },
+      "programming": {
+        "type": "music_programming",
+        "mode": "M",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://songtv.ru/"
+        ],
+        "note": "不同俄语歌手的流行音乐视频。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:05.921250+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "SONG TV"
+    },
+    {
+      "id": "StranaFM.ru",
+      "legacy_id": "StranaFM.ru",
+      "kind": "stream",
+      "name": "国家音乐 Strana",
+      "display_name": "俄罗斯·国家音乐 Strana（720P）",
+      "area": "overseas",
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "group": "海外频道",
+      "category": "音乐",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "俄语",
+      "language_codes": [
+        "rus"
+      ],
+      "edition": "俄罗斯分发版",
+      "url": "https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8",
+      "official_url": "https://strana.fm/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/stranafm-ru-964dd9c125.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "俄罗斯分发版；俄语流行歌曲、音乐视频和音乐节目。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Страна ФМ",
+        "upstream_tvg_id": "StranaFM.ru@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Страна／Strana",
+        "basis_url": "https://strana.fm/"
+      },
+      "programming": {
+        "type": "music_programming",
+        "mode": "M",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://strana.fm/"
+        ],
+        "note": "俄语流行歌曲、音乐视频和音乐节目。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:06.303908+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "国家音乐 Str"
+    },
+    {
+      "id": "MuzSoyuz.ru",
+      "legacy_id": "MuzSoyuz.ru",
+      "kind": "stream",
+      "name": "音乐联盟圣乐（兼礼仪）",
+      "display_name": "俄罗斯·音乐联盟圣乐（兼礼仪）（1080P）",
+      "area": "overseas",
+      "country": "RU",
+      "country_name": "俄罗斯",
+      "group": "海外频道",
+      "category": "音乐",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "俄语",
+      "language_codes": [
+        "rus"
+      ],
+      "edition": "俄罗斯分发版",
+      "url": "https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8",
+      "official_url": "https://muz.tv-soyuz.ru/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/muzsoyuz-ru-aee2903b69.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "俄罗斯分发版；宗教圣乐、合唱与传统歌曲，兼东正教讲道和礼仪时段。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Муз союз",
+        "upstream_tvg_id": "MuzSoyuz.ru@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Музсоюз／Союз",
+        "basis_url": "https://muz.tv-soyuz.ru/"
+      },
+      "programming": {
+        "type": "music_programming",
+        "mode": "M",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://muz.tv-soyuz.ru/"
+        ],
+        "note": "宗教圣乐、合唱与传统歌曲，兼东正教讲道和礼仪时段。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:07.360052+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "音乐联盟圣乐"
+    },
+    {
+      "id": "MrBeanAnimated.uk",
+      "legacy_id": "MrBeanAnimated.uk",
+      "kind": "stream",
+      "name": "憨豆先生动画专台",
+      "display_name": "英国·憨豆先生动画专台（1080P）",
+      "area": "overseas",
+      "country": "GB",
+      "country_name": "英国",
+      "group": "海外频道",
+      "category": "动漫",
+      "tags": [
+        "专业补充",
+        "单节目专台"
+      ],
+      "language": "英语，音乐歌词依作品",
+      "language_codes": [
+        "eng"
+      ],
+      "edition": "英国分发版",
+      "url": "https://amg00627-amg00627c23-samsung-gb-3927.playouts.now.amagi.tv/playlist.m3u8",
+      "official_url": "https://www.mrbean.com/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/mrbeananimated-uk-92deebb500.webp",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "英国分发版；《憨豆先生》动画版的不同集数；单一系列专台。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "original_name": "Mr Bean Animated",
+        "upstream_tvg_id": "MrBeanAnimated.uk@English",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Mr Bean／Banijay",
+        "basis_url": "https://www.mrbean.com/"
+      },
+      "programming": {
+        "type": "single_programme",
+        "mode": "S",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://www.mrbean.com/"
+        ],
+        "note": "《憨豆先生》动画版的不同集数；单一系列专台。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:14.378655+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "憨豆先生动画专台"
+    },
+    {
+      "id": "RakutenTVFamilyMovies.es@GB",
+      "legacy_id": "RakutenTVFamilyMovies.es",
+      "kind": "stream",
+      "name": "Rakuten 家庭电影（英国版）",
+      "display_name": "英国·Rakuten 家庭电影（英国版）（1080P）",
+      "area": "overseas",
+      "country": "GB",
+      "country_name": "英国",
+      "group": "海外频道",
+      "category": "电影",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "英语，音乐歌词依作品",
+      "language_codes": [
+        "eng"
+      ],
+      "edition": "英国分发版",
+      "url": "https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8",
+      "official_url": "https://www.rakuten.tv/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/rakutentvactionmovies-es-166043b571.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "英国分发版；英语编排的不同家庭电影。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Rakuten TV Family Movies UK",
+        "upstream_tvg_id": "RakutenTVFamilyMovies.es@UK"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Rakuten TV",
+        "basis_url": "https://www.rakuten.tv/"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "mode": "L",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://www.rakuten.tv/"
+        ],
+        "note": "英语编排的不同家庭电影。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:26.994944+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "Rakuten"
+    },
+    {
+      "id": "HighwaytoHeaven.us@GB",
+      "legacy_id": "HighwaytoHeaven.us",
+      "kind": "stream",
+      "name": "通往天堂专台（英国版）",
+      "display_name": "英国·通往天堂专台（英国版）（720P）",
+      "area": "overseas",
+      "country": "GB",
+      "country_name": "英国",
+      "group": "海外频道",
+      "category": "剧集",
+      "tags": [
+        "专业补充",
+        "单节目专台"
+      ],
+      "language": "英语，音乐歌词依作品",
+      "language_codes": [
+        "eng"
+      ],
+      "edition": "英国分发版",
+      "url": "https://jmp2.uk/plu-6081738748d3200007afb24b.m3u8",
+      "official_url": "https://pluto.tv/en/live-tv/highway-to-heaven-gb",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/highwaytoheaven-us-f8328d48f9.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "英国分发版；《Highway to Heaven》不同集数；英语单一剧集专台。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Highway to Heaven",
+        "upstream_tvg_id": "HighwaytoHeaven.us@UK"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Pluto TV分发",
+        "basis_url": "https://pluto.tv/en/live-tv/highway-to-heaven-gb"
+      },
+      "programming": {
+        "type": "single_programme",
+        "mode": "S",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://pluto.tv/en/live-tv/highway-to-heaven-gb"
+        ],
+        "note": "《Highway to Heaven》不同集数；英语单一剧集专台。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:27.452204+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "通往天堂专台"
+    },
+    {
+      "id": "DontTellTheBride.uk",
+      "legacy_id": "DontTellTheBride.uk",
+      "kind": "stream",
+      "name": "别告诉新娘专台",
+      "display_name": "英国·别告诉新娘专台（1080P）",
+      "area": "overseas",
+      "country": "GB",
+      "country_name": "英国",
+      "group": "海外频道",
+      "category": "综艺",
+      "tags": [
+        "专业补充",
+        "单节目专台"
+      ],
+      "language": "英语，音乐歌词依作品",
+      "language_codes": [
+        "eng"
+      ],
+      "edition": "英国分发版",
+      "url": "https://lds-donttellbride-samsunguk.amagi.tv/playlist.m3u8",
+      "official_url": "https://www.littledotstudios.com/en-gb/channels",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/donttellthebride-uk-d0509644a2.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "英国分发版；同一婚礼真人秀中不同情侣与期数；单节目专台。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "original_name": "Don't Tell The Bride",
+        "upstream_tvg_id": "DontTellTheBride.uk@SD",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Little Dot Studios",
+        "basis_url": "https://www.littledotstudios.com/en-gb/channels"
+      },
+      "programming": {
+        "type": "single_programme",
+        "mode": "S",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://www.littledotstudios.com/en-gb/channels"
+        ],
+        "note": "同一婚礼真人秀中不同情侣与期数；单节目专台。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:30.470609+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "别告诉新娘专台"
+    },
+    {
+      "id": "TraceUK.uk",
+      "legacy_id": "TraceUK.uk",
+      "kind": "stream",
+      "name": "TRACE 英国音乐",
+      "display_name": "英国·TRACE 英国音乐（720P）",
+      "area": "overseas",
+      "country": "GB",
+      "country_name": "英国",
+      "group": "海外频道",
+      "category": "音乐",
+      "tags": [],
+      "language": "英语",
+      "language_codes": [
+        "eng"
+      ],
+      "edition": "本地或主要语言版本",
+      "url": "https://d2l4tng0wskzvn.cloudfront.net/Trace_GB.m3u8",
+      "official_url": "https://trace.plus/app",
+      "logo": "",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "",
+      "source": {
+        "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk_samsung.m3u",
+        "snapshot_sha256": "affc3c66872bb09911ab15a1b1378934e35880280771529f8c127d1da4dc34e9",
+        "original_name": "Trace UK (1080p)",
+        "upstream_tvg_id": "TraceUK.uk@HD"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:34.019270+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "content_profile": {
+        "mode": "M",
+        "content": "音乐录影带、流行与城市音乐内容，按不同歌手和曲目编排。",
+        "organisation": "TRACE／TRACE+音乐品牌",
+        "local_mainstream_assessment": "国际音乐品牌的英国分发线，没有据此认定为英国本土主流综合媒体。",
+        "sources": [
+          "trace",
+          "registry"
+        ],
+        "notes": "完整当期英国版节目表、当前具体法人待核；本路内容定位依品牌与既有资料。",
+        "evidence_boundary": "品牌入口＋频道登记；英国当前完整节目单不足"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "TRACE／TRACE+音乐品牌",
+        "basis": "沿用106路报告的机构资料，非本轮新增测流"
+      },
+      "programming": {
+        "mode": "M",
+        "type": "music_programming",
+        "note": "音乐录影带、流行与城市音乐内容，按不同歌手和曲目编排。",
+        "evidence_urls": [
+          "https://trace.plus/app"
+        ]
+      },
+      "short_name": "TRACE"
+    },
+    {
+      "id": "V2BEATTV.uk",
+      "legacy_id": "V2BEATTV.uk",
+      "kind": "stream",
+      "name": "V2BEAT 流行舞曲",
+      "display_name": "英国·V2BEAT 流行舞曲（720P）",
+      "area": "overseas",
+      "country": "GB",
+      "country_name": "英国",
+      "group": "海外频道",
+      "category": "音乐",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "英语，音乐歌词依作品",
+      "language_codes": [
+        "eng"
+      ],
+      "edition": "英国登记的国际流行舞曲服务",
+      "url": "https://abr.de1se01.v2beat.live/playlist.m3u8",
+      "official_url": "https://www.vibee.tv/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/v2beattv-uk-3e2b4ecb78.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "英国登记的国际流行舞曲服务；流行和舞曲音乐视频、榜单及音乐短节目；国际音乐服务。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "V2BEAT",
+        "upstream_tvg_id": "V2BEATTV.uk@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "V2BEAT／ViiB",
+        "basis_url": "https://www.vibee.tv/"
+      },
+      "programming": {
+        "type": "music_programming",
+        "mode": "M",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://www.vibee.tv/"
+        ],
+        "note": "流行和舞曲音乐视频、榜单及音乐短节目；国际音乐服务。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:41.306446+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "V2BEAT"
+    },
+    {
+      "id": "Thats70s.uk",
+      "legacy_id": "Thats70s.uk",
+      "kind": "stream",
+      "name": "That's 70s 七十年代音乐",
+      "display_name": "英国·That's 70s 七十年代音乐（720P）",
+      "area": "overseas",
+      "country": "GB",
+      "country_name": "英国",
+      "group": "海外频道",
+      "category": "音乐",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "英语，音乐歌词依作品",
+      "language_codes": [
+        "eng"
+      ],
+      "edition": "英国分发版",
+      "url": "https://jmp2.uk/plu-69ef53e12f4d2b4f9c582e76.m3u8",
+      "official_url": "http://www.thats.tv/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/thats70s-uk-40ac069f9a.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "英国分发版；不同歌手的七十年代流行、摇滚及经典音乐视频。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "That's 70s",
+        "upstream_tvg_id": "Thats70s.uk@HD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "local_specialty",
+        "institution": "That's Music频道品牌",
+        "basis_url": "http://www.thats.tv/"
+      },
+      "programming": {
+        "type": "music_programming",
+        "mode": "M",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "http://www.thats.tv/"
+        ],
+        "note": "不同歌手的七十年代流行、摇滚及经典音乐视频。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:41.326507+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "That's 70s"
+    },
+    {
+      "id": "StingrayEasyListening.ca",
+      "legacy_id": "StingrayEasyListening.ca",
+      "kind": "stream",
+      "name": "Stingray 轻音乐音画",
+      "display_name": "加拿大·Stingray 轻音乐音画（1080P）",
+      "area": "overseas",
+      "country": "CA",
+      "country_name": "加拿大",
+      "group": "海外频道",
+      "category": "音乐",
+      "tags": [],
+      "language": "英语",
+      "language_codes": [
+        "eng"
+      ],
+      "edition": "本地或主要语言版本",
+      "url": "https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8",
+      "official_url": "",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/stingrayeasylistening-ca-3320d15043.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "轻音乐配背景影像的音画频道；不是演唱会或MV专台，也不宣称为纯音频广播。",
+      "source": {
+        "url": "https://iptv-org.github.io/iptv/countries/ca.m3u",
+        "snapshot_sha256": "ed9fc823b3f2bdac3bf0e3c551206a19bc842dd0e6c3fdf92aa6013552ed510a",
+        "original_name": "Stingray Easy Listening (1080p)",
+        "upstream_tvg_id": "StingrayEasyListening.ca@SD"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:47.021655+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "content_profile": {
+        "mode": "M",
+        "content": "不同曲目的轻音乐、器乐与放松音乐，配背景影像的音画节目。",
+        "organisation": "加拿大Stingray",
+        "local_mainstream_assessment": "加拿大本地大型音乐服务机构背景，但本条是专业音乐流，不是综合媒体，也非演唱会／MV专台。",
+        "sources": [
+          "stingray"
+        ],
+        "notes": "不应把1080P背景影像理解为歌曲都有高画质MV。",
+        "evidence_boundary": "官方品牌或节目资料；具体线路版本沿用既有测流记录"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "加拿大Stingray",
+        "basis": "沿用106路报告的机构资料，非本轮新增测流"
+      },
+      "programming": {
+        "mode": "M",
+        "type": "music_programming",
+        "note": "不同曲目的轻音乐、器乐与放松音乐，配背景影像的音画节目。",
+        "evidence_urls": []
+      },
+      "short_name": "Stingray"
+    },
+    {
+      "id": "RakutenTVFamilyMovies.es@DE",
+      "legacy_id": "RakutenTVFamilyMovies.es",
+      "kind": "stream",
+      "name": "Rakuten 家庭电影（德语版）",
+      "display_name": "德国·Rakuten 家庭电影（德语版）（1080P）",
+      "area": "overseas",
+      "country": "DE",
+      "country_name": "德国",
+      "group": "海外频道",
+      "category": "电影",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "德语，音乐歌词依作品",
+      "language_codes": [
+        "deu"
+      ],
+      "edition": "德国分发版",
+      "url": "https://af230031eeac45f3b78d4f8a13265105.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6209/master.m3u8",
+      "official_url": "https://www.rakuten.tv/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/rakutentvactionmovies-es-166043b571.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "德国分发版；德语编排的不同家庭电影。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Rakuten TV Family Movies Germany",
+        "upstream_tvg_id": "RakutenTVFamilyMovies.es@Germany"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Rakuten TV",
+        "basis_url": "https://www.rakuten.tv/"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "mode": "L",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://www.rakuten.tv/"
+        ],
+        "note": "德语编排的不同家庭电影。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:35:58.919021+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "Rakuten"
+    },
+    {
+      "id": "Dokusat.de",
+      "legacy_id": "Dokusat.de",
+      "kind": "stream",
+      "name": "DOKUSAT 纪录（分时段）",
+      "display_name": "德国·DOKUSAT 纪录（分时段）（1080P）",
+      "area": "overseas",
+      "country": "DE",
+      "country_name": "德国",
+      "group": "海外频道",
+      "category": "纪录片",
+      "tags": [
+        "专业补充",
+        "夜间购物时段"
+      ],
+      "language": "德语，音乐歌词依作品",
+      "language_codes": [
+        "deu"
+      ],
+      "edition": "德国分发版",
+      "url": "https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8",
+      "official_url": "https://www.dokusat.de/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/dokusat-de-d50efc8ee9.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "德国分发版；多种纪录节目；官网及本轮画面均显示夜间购物时段，不描述为全天纪录。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Dokusat",
+        "upstream_tvg_id": "Dokusat.de@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "local_specialty",
+        "institution": "DOKUSAT",
+        "basis_url": "https://www.dokusat.de/"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "mode": "T",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://www.dokusat.de/"
+        ],
+        "note": "多种纪录节目；官网及本轮画面均显示夜间购物时段，不描述为全天纪录。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:36:09.542353+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "DOKUSAT"
+    },
+    {
+      "id": "DeluxeRap.de",
+      "legacy_id": "DeluxeRap.de",
+      "kind": "stream",
+      "name": "TOTAL RAP 嘻哈音乐（原DELUXE RAP）",
+      "display_name": "德国·TOTAL RAP 嘻哈音乐（原DELUXE RAP）（1080P）",
+      "area": "overseas",
+      "country": "DE",
+      "country_name": "德国",
+      "group": "海外频道",
+      "category": "音乐",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "德语，音乐歌词依作品",
+      "language_codes": [
+        "eng",
+        "deu"
+      ],
+      "edition": "德国分发版",
+      "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8",
+      "official_url": "https://deluxemusic.de/kontakt/",
+      "logo": "",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "德国分发版；不同歌手的说唱、嘻哈音乐视频；按本轮实际台标标注品牌。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Deluxe Rap",
+        "upstream_tvg_id": "DeluxeRap.de@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "local_specialty",
+        "institution": "DELUXE／TOTAL RAP",
+        "basis_url": "https://deluxemusic.de/kontakt/"
+      },
+      "programming": {
+        "type": "music_programming",
+        "mode": "M",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://deluxemusic.de/kontakt/"
+        ],
+        "note": "不同歌手的说唱、嘻哈音乐视频；按本轮实际台标标注品牌。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:36:11.796143+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "TOTAL RAP"
+    },
+    {
+      "id": "DetectiveConan.us@FR",
+      "legacy_id": "DetectiveConan.us",
+      "kind": "stream",
+      "name": "名侦探柯南专台（法语版）",
+      "display_name": "法国·名侦探柯南专台（法语版）（720P）",
+      "area": "overseas",
+      "country": "FR",
+      "country_name": "法国",
+      "group": "海外频道",
+      "category": "动漫",
+      "tags": [
+        "专业补充",
+        "单节目专台"
+      ],
+      "language": "法语，音乐歌词依作品",
+      "language_codes": [
+        "fra"
+      ],
+      "edition": "法国分发版",
+      "url": "https://jmp2.uk/plu-62f3e8ad2a8e8000077b013d.m3u8",
+      "official_url": "",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/detectiveconan-us-fb34a125e6.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "法国分发版；《名侦探柯南》不同集数；单一作品，作为多作品频道之后的补充。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Detective Conan France",
+        "upstream_tvg_id": "DetectiveConan.us@France"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Pluto TV分发／作品品牌",
+        "basis_url": "https://iptv-org.github.io/api/channels.json"
+      },
+      "programming": {
+        "type": "single_programme",
+        "mode": "S",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://iptv-org.github.io/api/channels.json"
+        ],
+        "note": "《名侦探柯南》不同集数；单一作品，作为多作品频道之后的补充。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:36:23.360468+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "名侦探柯南专台"
+    },
+    {
+      "id": "SonyOneBlacklist.fr",
+      "legacy_id": "SonyOneBlacklist.fr",
+      "kind": "stream",
+      "name": "罪恶黑名单专台（法语版）",
+      "display_name": "法国·罪恶黑名单专台（法语版）（1080P）",
+      "area": "overseas",
+      "country": "FR",
+      "country_name": "法国",
+      "group": "海外频道",
+      "category": "剧集",
+      "tags": [
+        "专业补充",
+        "单节目专台"
+      ],
+      "language": "法语，音乐歌词依作品",
+      "language_codes": [
+        "fra"
+      ],
+      "edition": "法国分发版",
+      "url": "https://d1x87j1jmcypab.cloudfront.net/playlist.m3u8",
+      "official_url": "https://www.sonypictures.com/corp/press_releases/2024/0326",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/sonyoneblacklist-fr-b7f1daaab4.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "法国分发版；《The Blacklist》不同季与集；单一罪案剧专台。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Sony One Blacklist",
+        "upstream_tvg_id": "SonyOneBlacklist.fr@HD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Sony Pictures",
+        "basis_url": "https://www.sonypictures.com/corp/press_releases/2024/0326"
+      },
+      "programming": {
+        "type": "single_programme",
+        "mode": "S",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://www.sonypictures.com/corp/press_releases/2024/0326"
+        ],
+        "note": "《The Blacklist》不同季与集；单一罪案剧专台。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:36:25.651134+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "罪恶黑名单专台"
+    },
+    {
+      "id": "PlutoTVPolar.de@FR",
+      "legacy_id": "PlutoTVPolar.de",
+      "kind": "stream",
+      "name": "Pluto 罪案剧集（法语版）",
+      "display_name": "法国·Pluto 罪案剧集（法语版）（720P）",
+      "area": "overseas",
+      "country": "FR",
+      "country_name": "法国",
+      "group": "海外频道",
+      "category": "剧集",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "法语，音乐歌词依作品",
+      "language_codes": [
+        "fra"
+      ],
+      "edition": "法国分发版",
+      "url": "https://jmp2.uk/plu-5f8ed4dbf6bb0800071ffbcb.m3u8",
+      "official_url": "https://pluto.tv/live-tv/pluto-tv-polar-fr/details",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/plutotvpolar-de-0c44c1a6d5.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "法国分发版；不同罪案、警方与侦探题材剧集。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Pluto TV Polar",
+        "upstream_tvg_id": "PlutoTVPolar.de@FR"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Pluto TV／Paramount",
+        "basis_url": "https://pluto.tv/live-tv/pluto-tv-polar-fr/details"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "mode": "L",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://pluto.tv/live-tv/pluto-tv-polar-fr/details"
+        ],
+        "note": "不同罪案、警方与侦探题材剧集。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:36:26.461588+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "Pluto"
+    },
+    {
+      "id": "PlutoTVAventure.de@FR",
+      "legacy_id": "PlutoTVAventure.de",
+      "kind": "stream",
+      "name": "Pluto 探索纪录（法语版）",
+      "display_name": "法国·Pluto 探索纪录（法语版）（720P）",
+      "area": "overseas",
+      "country": "FR",
+      "country_name": "法国",
+      "group": "海外频道",
+      "category": "纪录片",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "法语，音乐歌词依作品",
+      "language_codes": [
+        "fra"
+      ],
+      "edition": "法国分发版",
+      "url": "https://jmp2.uk/plu-611e7811eb9daf000764cbfd.m3u8",
+      "official_url": "https://pluto.tv/live-tv/pluto-tv-aventure-fr/details",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/plutotvaventure-de-0fbd232eee.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "法国分发版；旅行、探索、社会与人文题材的多部纪实节目。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Pluto TV Aventure",
+        "upstream_tvg_id": "PlutoTVAventure.de@FR"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Pluto TV／Paramount",
+        "basis_url": "https://pluto.tv/live-tv/pluto-tv-aventure-fr/details"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "mode": "L",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://pluto.tv/live-tv/pluto-tv-aventure-fr/details"
+        ],
+        "note": "旅行、探索、社会与人文题材的多部纪实节目。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:36:30.217171+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "Pluto"
+    },
+    {
+      "id": "PlutoTVDating.de@FR",
+      "legacy_id": "PlutoTVDating.de",
+      "kind": "stream",
+      "name": "Pluto 婚恋综艺（法语版）",
+      "display_name": "法国·Pluto 婚恋综艺（法语版）（720P）",
+      "area": "overseas",
+      "country": "FR",
+      "country_name": "法国",
+      "group": "海外频道",
+      "category": "综艺",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "法语，音乐歌词依作品",
+      "language_codes": [
+        "fra"
+      ],
+      "edition": "法国分发版",
+      "url": "https://jmp2.uk/plu-682318568e6c0f2f6c6e0038.m3u8",
+      "official_url": "https://pluto.tv/live-tv/pluto-tv-dating-fr/details",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/plutotvdating-de-d5ef97016c.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "法国分发版；不同婚恋、约会与真人秀节目。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Pluto TV Dating",
+        "upstream_tvg_id": "PlutoTVDating.de@FR"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Pluto TV／Paramount",
+        "basis_url": "https://pluto.tv/live-tv/pluto-tv-dating-fr/details"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "mode": "L",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://pluto.tv/live-tv/pluto-tv-dating-fr/details"
+        ],
+        "note": "不同婚恋、约会与真人秀节目。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:36:35.485376+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "Pluto"
+    },
+    {
+      "id": "GiornaleRadioTV.it",
+      "legacy_id": "GiornaleRadioTV.it",
+      "kind": "stream",
+      "name": "Giornale Radio 新闻",
+      "display_name": "意大利·Giornale Radio 新闻（720P）",
+      "area": "overseas",
+      "country": "IT",
+      "country_name": "意大利",
+      "group": "海外频道",
+      "category": "新闻",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "意大利语，音乐歌词依作品",
+      "language_codes": [
+        "ita"
+      ],
+      "edition": "意大利分发版",
+      "url": "https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8",
+      "official_url": "https://giornaleradio.fm/canali-tv/giornaleradio-tv",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/giornaleradiotv-it-27e6b9e3db.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "意大利分发版；新闻音频、主持讨论、新闻字幕与资讯图文；不标成全天实景视频新闻。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Giornale Radio TV",
+        "upstream_tvg_id": "GiornaleRadioTV.it@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "local_specialty",
+        "institution": "Giornale Radio",
+        "basis_url": "https://giornaleradio.fm/canali-tv/giornaleradio-tv"
+      },
+      "programming": {
+        "type": "rolling_news",
+        "mode": "N",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://giornaleradio.fm/canali-tv/giornaleradio-tv"
+        ],
+        "note": "新闻音频、主持讨论、新闻字幕与资讯图文；不标成全天实景视频新闻。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:36:38.552575+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "Giornale Radio"
+    },
+    {
+      "id": "LaCNews24.it",
+      "legacy_id": "LaCNews24.it",
+      "kind": "stream",
+      "name": "LaC News24 新闻（兼资讯）",
+      "display_name": "意大利·LaC News24 新闻（兼资讯）（720P）",
+      "area": "overseas",
+      "country": "IT",
+      "country_name": "意大利",
+      "group": "海外频道",
+      "category": "新闻",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "意大利语，音乐歌词依作品",
+      "language_codes": [
+        "ita"
+      ],
+      "edition": "意大利分发版",
+      "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8",
+      "official_url": "https://www.lacplay.it/dirette/lac-news24/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/lacnews24-it-444603b640.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "意大利分发版；卡拉布里亚及意大利新闻，兼采访、生活和地区资讯节目。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "LaC News 24",
+        "upstream_tvg_id": "LaCNews24.it@SD"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "local_specialty",
+        "institution": "LaC Network",
+        "basis_url": "https://www.lacplay.it/dirette/lac-news24/"
+      },
+      "programming": {
+        "type": "rolling_news",
+        "mode": "N",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://www.lacplay.it/dirette/lac-news24/"
+        ],
+        "note": "卡拉布里亚及意大利新闻，兼采访、生活和地区资讯节目。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:36:39.271691+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "LaC News24"
+    },
+    {
+      "id": "RakutenTVFamilyMovies.es@IT",
+      "legacy_id": "RakutenTVFamilyMovies.es",
+      "kind": "stream",
+      "name": "Rakuten 家庭电影（意语版）",
+      "display_name": "意大利·Rakuten 家庭电影（意语版）（1080P）",
+      "area": "overseas",
+      "country": "IT",
+      "country_name": "意大利",
+      "group": "海外频道",
+      "category": "电影",
+      "tags": [
+        "专业补充"
+      ],
+      "language": "意大利语，音乐歌词依作品",
+      "language_codes": [
+        "ita"
+      ],
+      "edition": "意大利分发版",
+      "url": "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8",
+      "official_url": "https://www.rakuten.tv/",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/rakutentvactionmovies-es-166043b571.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "1080P",
+      "quality_floor": 1080,
+      "quality_ceiling": 1080,
+      "scan": "progressive",
+      "fallback_reason": "",
+      "edition_note": "意大利分发版；不同家庭电影的意大利语编排。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Rakuten TV Family Movies Italy",
+        "upstream_tvg_id": "RakutenTVFamilyMovies.es@Italy"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Rakuten TV",
+        "basis_url": "https://www.rakuten.tv/"
+      },
+      "programming": {
+        "type": "multi_programme",
+        "mode": "L",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://www.rakuten.tv/"
+        ],
+        "note": "不同家庭电影的意大利语编排。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:36:44.247320+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "Rakuten"
+    },
+    {
+      "id": "Andromeda.us@IT",
+      "legacy_id": "Andromeda.us",
+      "kind": "stream",
+      "name": "星舰复国记专台（意语版）",
+      "display_name": "意大利·星舰复国记专台（意语版）（720P）",
+      "area": "overseas",
+      "country": "IT",
+      "country_name": "意大利",
+      "group": "海外频道",
+      "category": "剧集",
+      "tags": [
+        "专业补充",
+        "单节目专台"
+      ],
+      "language": "意大利语，音乐歌词依作品",
+      "language_codes": [
+        "ita"
+      ],
+      "edition": "意大利分发版",
+      "url": "https://jmp2.uk/plu-60802d37ee238e0007c94e64.m3u8",
+      "official_url": "https://pluto.tv/en/live-tv/andromeda-gb",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/andromeda-us-6378fcedda.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "意大利分发版；《Andromeda》不同季与集；单一科幻剧专台。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "Andromeda Italy",
+        "upstream_tvg_id": "Andromeda.us@Italy"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "Pluto TV分发／作品品牌",
+        "basis_url": "https://pluto.tv/en/live-tv/andromeda-gb"
+      },
+      "programming": {
+        "type": "single_programme",
+        "mode": "S",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://pluto.tv/en/live-tv/andromeda-gb"
+        ],
+        "note": "《Andromeda》不同季与集；单一科幻剧专台。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:36:46.572610+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "星舰复国记专台"
+    },
+    {
+      "id": "16AnnieIncinta.de@IT",
+      "legacy_id": "16AnnieIncinta.de",
+      "kind": "stream",
+      "name": "16岁怀孕专台（意语版）",
+      "display_name": "意大利·16岁怀孕专台（意语版）（720P）",
+      "area": "overseas",
+      "country": "IT",
+      "country_name": "意大利",
+      "group": "海外频道",
+      "category": "综艺",
+      "tags": [
+        "专业补充",
+        "单节目专台"
+      ],
+      "language": "意大利语，音乐歌词依作品",
+      "language_codes": [
+        "ita"
+      ],
+      "edition": "意大利分发版",
+      "url": "https://jmp2.uk/plu-60940a07d88ba90007b9cb71.m3u8",
+      "official_url": "https://pluto.tv/live-tv/16-anni-e-incinta-it/details",
+      "logo": "https://raw.githubusercontent.com/sq666-ca/JellyView/main/assets/logos/16annieincinta-de-24cf5f0657.png",
+      "status": "verified_in_two_rounds",
+      "quality_note": "720P",
+      "quality_floor": 720,
+      "quality_ceiling": 720,
+      "scan": "progressive",
+      "fallback_reason": "同台本轮已测试的候选中，未取得身份与正常节目均更合适的稳定1080P及以上线路；不表示该电视台最高只提供720P。",
+      "edition_note": "意大利分发版；《16 and Pregnant》系列不同人物与期数；单节目品牌的实境内容。",
+      "source": {
+        "url": "https://iptv-org.github.io/api/streams.json",
+        "snapshot_sha256": "dc6af40ab656f87d864fb7527dadaa2eda2455f9c58fd82eef0afcf34057461c",
+        "original_name": "16 Anni e Incinta",
+        "upstream_tvg_id": "16AnnieIncinta.de@IT"
+      },
+      "curation": {
+        "tier": 2,
+        "role": "supplement",
+        "institution": "MTV／Paramount",
+        "basis_url": "https://pluto.tv/live-tv/16-anni-e-incinta-it/details"
+      },
+      "programming": {
+        "type": "single_programme",
+        "mode": "S",
+        "basis": "频道资料、地区分发记录与本轮两次节目抽样；不以单个画面推断全天节目表",
+        "evidence_urls": [
+          "https://pluto.tv/live-tv/16-anni-e-incinta-it/details"
+        ],
+        "note": "《16 and Pregnant》系列不同人物与期数；单节目品牌的实境内容。"
+      },
+      "review": {
+        "last_checked_at_utc": "2026-10-31T08:36:53.926838+00:00",
+        "last_two_results": [
+          "passed",
+          "passed"
+        ],
+        "identity": "已查看本轮抽样画面，并结合可识别品牌、既有频道身份和分发资料核对；不证明所有时段节目。",
+        "check_date": "2026-10-31",
+        "scope": "2026-10-31同一检测网络短时解码、抽帧、逐行判别和直播清单推进；未于2026-11-03重新测流，不代表全天或所有网络稳定。"
+      },
+      "short_name": "16"
+    }
+  ],
+  "official_pages": [],
+  "software_compatibility": {
+    "note": "M3U提供基础视频和台标；地区、国家、八类、官网混排及简称字段的显示取决于客户端版本。"
+  }
+}
